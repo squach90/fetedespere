@@ -1,0 +1,28 @@
+/* styles/Voeux.module.css */
+.container {
+  @apply flex flex-col items-center justify-center h-screen bg-gray-100 text-center;
+}
+
+.title {
+  @apply text-3xl font-bold text-gray-800;
+}
+
+.message {
+  @apply text-xl my-4 text-gray-600;
+}
+
+.animation {
+  @apply relative w-24 h-24;
+}
+
+.heart {
+  @apply text-6xl animate-bounce;
+}
+
+.button {
+  @apply mt-6;
+}
+
+.bigzoom {
+  zoom: 100%;
+}
